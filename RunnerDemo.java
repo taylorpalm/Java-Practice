@@ -24,6 +24,6 @@ public class RunnerDemo {
 			race.setRunnerTime(i, time);}
 
 	
-		System.out.println(race.winner());
+		System.out.println("The winner is runner #" + race.winner() + "!");
 
 }}
