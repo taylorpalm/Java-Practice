@@ -26,7 +26,7 @@ public class Runner {
 	
 	
 	
-	public String winner()
+	public int winner()
 	{int win=0;
 	String winnerString="";
 	 
@@ -37,10 +37,8 @@ public class Runner {
 		  
 		}
 
-	
-		winnerString= "The winner is runner #" + (win+1) + "!";
 
-		return winnerString;
+		return (win+1);
 
 	}}
 
